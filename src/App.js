@@ -7,7 +7,7 @@ const auth = new Auth()
 
 class App extends Component {
   render() {
-    console.log('====', auth.isAuthenticated)
+    console.log("====", auth.isAuthenticated(), auth);
     return <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
